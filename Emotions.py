@@ -6,7 +6,6 @@ from azure.core.credentials import AzureKeyCredential
 from openai import AzureOpenAI
 
 model_version = "stability-ai/stable-diffusion:ac732df83cea7fff18b8472768c88ad041fa750ff7682a21affe81863cbe77e4"
-os.environ["REPLICATE_API_TOKEN"] = "r8_00hR75f0wkqh3sKTXxL8uuFSWJg6oZ33XaRhs"
 
 # Define model + version
 
@@ -14,7 +13,6 @@ endpoint = "https://aistudioaiservices750088862480.cognitiveservices.azure.com/"
 model_name = "gpt-4o"
 deployment = "gpt-4o"
 
-subscription_key = "2b8YNJsGMCYHliXY6TKfemRIX7r5hsj6VBSfBb9tR5TAEx0lsgoEJQQJ99BDAC77bzfXJ3w3AAAAACOGUqTs"
 api_version = "2024-12-01-preview"
 
 client = AzureOpenAI(
