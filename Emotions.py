@@ -55,8 +55,6 @@ response = client.chat.completions.create(
 prompt = response.choices[0].message.content
 print(prompt)
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_00hR75f0wkqh3sKTXxL8uuFSWJg6oZ33XaRhs"
-
 
 # Run the model
 flag = 0
